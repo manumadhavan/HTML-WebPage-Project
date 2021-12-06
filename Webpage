@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>COUNTRIES</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="task.css">
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    
+ </head>
+ <body>
+<center>
+<h1 style="background-color:#FCF3CF;color:black;"><b>COUNTRIES OF THE WORLD</b></h1>
+<a href="pg 2.html" style="font-size:30px;color:red"><b> REGISTER TO TRAVEL </b></a>
+</center>
+
+    <div class="container">
+        
+
+        <ul id="navbar" class="nav nav-tabs" style="background-color:red";>
+            <li class="active"><a data-toggle="tab" href="#HOME" id="homecolor" style="color:red"><b>HOME</b></a></li>
+            <li><a data-toggle="tab" href="#INDIA" id="homecolor" style="color:red"><b>INDIA</b></a></li>
+            <li><a data-toggle="tab" href="#AUSTRALIA" id="homecolor" style="color:red"><b>AUSTRALIA</b></a></li>
+            <li><a data-toggle="tab" href="#CHINA" id="homecolor" style="color:red"><b>CHINA</b></a></li>
+        </ul>
+       <div class="box">
+        <div class="tab-content">
+       
+            <div id="HOME" class="tab-pane fade in active">
+                <h3><b>COUNTRIES</b></h3>
+                <marquee style="font-size:20px">Presenting the most prominent countries of the world</marquee>
+            </div>
+       
+      
+       
+            <div id="INDIA" class="tab-pane fade" >
+                <h3><b>INDIA</b></h3>
+                <p style="font-size:20px">India is the most diverse country in the world</p>
+                
+            </div>
+          
+       
+            <div id="AUSTRALIA" class="tab-pane fade">
+                <h3><b>AUSTRALIA</b></h3>
+                <p style="font-size:20px">Australia is famous for dairy farming and poultry</p>
+            </div>
+            <div id="CHINA" class="tab-pane fade">
+                <h3><b>CHINA</b></h3>
+                <p style="font-size:20px">China is the birthplace of kungfu</p>
+            </div>
+          </div>
+       </div>
+    </div>
+<marquee scrollamount="15">
+<img src="world.jpg" alt="world" style="width:400px;height:400px">
+<img src="India.jpg" alt="India" style="width:400px;height:400px">
+<img src="Australia.jpg" alt="Australia" style="width:400px;height:400px">
+<img src="China.jpg" alt="China" style="width:400px;height:400px">
+<img src="https://cdn.theculturetrip.com/wp-content/uploads/2019/04/gettyimages-829204664.jpg" alt="China" style="width:400px;height:400px">
+</marquee>
+<hr class="divider">
+<footer class="container">
+	<a href="#" class="fa fa-facebook"></a>
+	<a href="#" class="fa fa-twitter"></a>
+	<a href="#" class="fa fa-google"></a>
+	<a href="#" class="fa fa-linkedin"></a>
+	<a href="#" class="fa fa-youtube"></a>
+	<a href="#" class="fa fa-instagram"></a>
+	<a href="#" class="fa fa-pinterest"></a>
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2021–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+
+</body>
+</html>
 
